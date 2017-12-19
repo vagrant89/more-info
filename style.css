@@ -1,0 +1,157 @@
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.header-btn{
+  background-color: #5fc0cd;
+  height: 4rem;
+  text-align: center;
+}
+.h-btn{
+  border: none;
+  height: 3rem;
+  width: 5rem;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: .7rem;
+  background-image: none;
+  color: #79c9d4;
+  font-weight: bold;
+}
+.employer{
+  background-color: #55a8b3;
+  margin-right: -15px;
+  color: white;
+  font-weight: bold;
+}
+.header-map{
+  position: fixed;
+  top: .5rem;
+  right: 1rem;
+  width: 42px; height: 44px;
+  background-position: -10px -271px;
+}
+.dropdn{
+  background-color: white;
+  width: 100%;
+  line-height:3rem;
+  border-bottom: 1px solid grey;
+}
+.nav-dropdown{
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+.btn{
+  color: #c7c7c7;
+  border: none;
+}
+.mid-btn{
+  border-left: 1px solid #f0f3f4;
+  border-right: 1px solid #f0f3f4;
+}
+
+/* main*/
+main{
+  position: absolute;
+  top: 7rem;
+  width: 100%;
+  overflow: hidden;
+}
+ul,
+li{
+  list-style: none;
+  padding: 0;
+}
+li{
+  border-bottom: 1px solid black;
+  display: block;
+  width: 100%;
+}
+span{
+  display: block;
+  width: 35%;
+}
+.calendar{
+  padding: 0 0 0 2rem;
+  background-position: -10px -53px;
+  position: relative;
+  left: 3rem;
+  top: 1rem;
+  color: #bdbdbd;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.date{
+  position: relative;
+  left: 5rem;
+  top: 1rem;
+  background-image: none;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.address{
+  padding: 0 0 0 2rem;
+  background-position: -10px -10px;
+  position: relative;
+  left: 3rem;
+  top: 1rem;
+  color: #bdbdbd;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.cost{
+  position: relative;
+  left: 70%;
+  top: -2rem;
+  color: #ec7054;
+  padding: 0.3rem 2rem 0.5rem 0;
+  background-position: 66px -97px;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  background-color: #f8fafb;
+  width: 100%;
+  height: 6rem;
+  text-align: center;
+  white-space: nowrap;
+}
+.f-btn{
+  border: none;
+}
+.mainpage{
+  padding: 2.5rem 0 0 0;
+  width: 50px;
+  height: 40px;
+  background-position: -10px -150px;
+  position: relative;
+  bottom: 0.5rem;
+  color: #5fc0cd;
+}
+.icon{
+  width: 94px; height: 94px;
+  background-position: -10px -335px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.my-info{
+  padding: 2.7rem 0 0 0;
+  width: 42px; height: 41px;
+  background-position: -10px -210px;
+  position: relative;
+  bottom: 0.5rem;
+  color: #c2c3c3;
+}
+
+
+
+/* background-images */
+button,
+span{
+  background: url("images/css_sprites.png") no-repeat;
+}
