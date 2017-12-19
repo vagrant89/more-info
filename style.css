@@ -54,8 +54,9 @@ header{
 
 /* main*/
 main{
+  padding: 7rem 0 5rem 0;
   position: absolute;
-  top: 7rem;
+  /* top: 7rem; */
   width: 100%;
   overflow: hidden;
 }
@@ -148,8 +149,6 @@ footer{
   color: #c2c3c3;
 }
 
-sssssssssssssssssssssssssssssssssss
-sssssssssssssssssssssssss
 
 /* background-images */
 button,
