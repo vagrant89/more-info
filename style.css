@@ -31,11 +31,11 @@ header{
 }
 .header-map{
   position: fixed;
-  top: .5rem;
+  top: 1rem;
   right: 1rem;
   width: 42px; height: 44px;
   background-position: -10px -271px;
-  transform: scale(.5);
+  transform: scale(.7);
 }
 .dropdn{
   background-color: white;
